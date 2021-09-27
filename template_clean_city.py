@@ -44,9 +44,11 @@ while True:
     
     
     screen.blit(images["bg"],[0,0])
+    
+    # Calling the 'display' function for 'bin1' object
     bin1.display()
-    bin2.display()
-    bin3.display()
+    # Call the 'display' function for the other 2 'bin' objects
+    
     
 
     pygame.display.update()
